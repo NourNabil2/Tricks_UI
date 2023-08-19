@@ -26,7 +26,7 @@ Widget Button (
 
     height: height,
 
-    decoration: BoxDecoration( border:border ? Border.all(width: 2) : null ,borderRadius: BorderRadius.circular(radius),color: ColorOfButton , boxShadow:isboxShadow?isPressed ?[] :[
+    decoration: BoxDecoration( border:border ? Border.all(width: 2) : null ,borderRadius: BorderRadius.circular(radius),color: ColorOfButton , boxShadow:[
 
 
 
@@ -57,7 +57,7 @@ Widget Button (
 
 
 
-    ]:null),
+    ]),
 
     child: Center(child: Text(text,textAlign: TextAlign.center ,style:const TextStyle(decoration: TextDecoration.none ,color: Colors.black,fontWeight: FontWeight.bold),)),
 
