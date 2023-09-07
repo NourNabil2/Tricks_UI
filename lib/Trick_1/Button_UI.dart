@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart' hide BoxDecoration, BoxShadow;
 import 'package:flutter_inset_box_shadow/flutter_inset_box_shadow.dart';
 bool isPressed= false;
-Offset distance = Offset(4, 4);
+Offset distance = const Offset(4, 4);
 double blurRadius = 8.0;
 Widget Button (
     {

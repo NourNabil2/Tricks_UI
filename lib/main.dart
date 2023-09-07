@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tricks_ui/Trick_2/Container_Clipper.dart';
 
 import 'Trick_1/button_Page.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const Page_Button(),
+      home: const Clipper(),
     );
   }
 }
